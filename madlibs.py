@@ -58,6 +58,143 @@ nouns = ["house", "chesesburger", "salad", "bongo", "tower", "chair", "sandwich"
 verbs = ["jump", "fly", "run", "kidnap", "sing", "cry"]
 adjectives = ["disabled", "lying", "funny", "HUGE", "tiny", "weird"]
 print("Nouns", nouns, "Verbs", verbs, "Adjectvies", adjectives)
-input("Select a Noun")
-if input == "house"
-    print('Once upon a time ' + "house")
+n = input("Select a Noun ")
+if n == "house":
+  k = ("Once upon a time " + "house")
+elif n == "chesebruger":
+   k == ("Once upon a time " + "cheseburger")
+elif n == "salad":
+  k =    ("Once upon a time " + "salad")
+elif n == "bongo":
+  k =    ("Once upon a time " + "bongo")
+elif n == "tower":
+  k =   ("Once upon a time " + "tower")
+elif n == "chair":
+  k =    ("Once upon a time " + "chair")
+elif n == "sandwhich":
+ k =     ("Once upon a time " + "sandwich")
+elif n == "wagyu":
+  k =    ("Once upon a time " + "waygu")
+elif n == "car":
+  k =    ("Once upon a time " + "car")
+elif n == "matresss":
+ k =     ("Once upon a time " + "matress")
+elif n == "phone":
+  k =    ("Once upon a time " + "phone")
+elif n == "hair":
+ k =    ("Once upon a time " + "hair")
+elif n == "cave":
+ k =     ("Once upon a time " + "watch")
+elif n == "watch":
+ k =     ("Once upon a time " + "watch")
+
+v = input("Select a verb ")
+if v == "jump":
+  l = (" decided to " + "jump" + '. ')
+elif v == "fly":
+  l = (" decided to" + "fly" + '. ')
+elif v == "run":
+  l = (" decided to" + "run " + '. ')
+elif v == "kidnap":
+ l = (" decided to" + "kidanp" + '. ')
+elif v == "sing":
+ l = (" decided to" + "sing" + '. ')
+elif v == "cry":
+ l = (" decided to" + " cry" + '. ')
+ 
+
+
+v = input("Select a verb ")
+if v == "jump":
+  z = ('After that they decided to ' + "jump")
+elif v == "fly":
+  z = ('After that they decided to ' + "fly" )
+elif v == "run":
+  z = ('After that they decided to ' + "run " )
+elif v == "kidnap":
+ z = ('After that they decided to ' + "kidanp")
+elif v == "sing":
+ z = ('After that they decided to ' + "sing" )
+elif v == "cry":
+ z = ('After that they decided to ' + " cry" )
+ 
+n = input("Select a Noun ")
+if n == "house":
+  a = ("house")
+elif n == "chesebruger":
+   a == ("cheseburger")
+elif n == "salad":
+  a =    ("salad")
+elif n == "bongo":
+  a =    ("bongo")
+elif n == "tower":
+  a =   ("tower")
+elif n == "chair":
+  a =    ("chair")
+elif n == "sandwhich":
+ a =     ("sandwich")
+elif n == "wagyu":
+  a =    ("waygu")
+elif n == "car":
+  a =    ("car")
+elif n == "matresss":
+ a =     ("matress")
+elif n == "phone":
+  a =    ("phone")
+elif n == "hair":
+ a =    ("hair")
+elif n == "cave":
+ a =     ("watch")
+elif n == "watch":
+ a =     ("watch")
+
+
+j = input("Select a Adjective")
+if j == "disabled":
+  b = (' but before they left to do that they grabbed their '+ "disabled")
+elif j == "lying":
+  b = (' but before they left to do that they grabbed their ' + "lying")
+elif j == "funny":
+  b = (' but before they left to do that they grabbed their ' + "funny")
+elif j == "HUGE":
+  b = (' but before they left to do that they grabbed their ' + "HUGE")
+elif j == "tiny":
+  b = (' but before they left to do that they grabbed their ' + "tiny")
+elif j == "weird":
+  b = (' but before they left to do that they grabbed their ' + "weird")
+
+n = input("Select a Noun ")
+if n == "house":
+  c = ("house")
+elif n == "chesebruger":
+   c == ("cheseburger")
+elif n == "salad":
+  c =    ("salad")
+elif n == "bongo":
+  c =    ("bongo")
+elif n == "tower":
+  c =   ("tower")
+elif n == "chair":
+  c =    ("chair")
+elif n == "sandwhich":
+ c =     ("sandwich")
+elif n == "wagyu":
+  c =    ("waygu")
+elif n == "car":
+  c =    ("car")
+elif n == "matresss":
+ c =     ("matress")
+elif n == "phone":
+  c =    ("phone")
+elif n == "hair":
+ c =    ("hair")
+elif n == "cave":
+ c =     ("watch")
+elif n == "watch":
+ c =     ("watch")
+
+ 
+ ' but before they left to do that they grabbed their ' 
+
+
+print(k + l + z + ' ' a + b + c)
